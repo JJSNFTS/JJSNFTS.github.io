@@ -1,0 +1,566 @@
+html, body {
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    
+    letter-spacing: 2px;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:14px;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 700px;
+    background:url("https://imgur.com/ZnOgpvX");
+    background-size: cover;
+}
+
+.logo {
+    width: 450px;
+    height: 150px;
+    left: 36%;
+    position: relative;
+    top: 62px;
+}
+
+
+.box-close{
+        top: 120px;
+        width: 950px;
+        height: 380px;
+       
+        position: relative;
+        left: 18%;
+        bottom:25px;
+        display: flex;     
+}
+
+.box-img{
+    width: 400px;
+    height: 100%;
+    right: 60px;
+    position: relative;
+    
+}
+.text-box{
+    color: white;
+    top: 27px;
+    position: relative;
+    right: 20px;
+    
+}
+.box-open{
+    width: 100%;
+    height: 360px;
+    background-color: gray;
+    border-radius: 2rem;
+    opacity: 50%;
+    top: 14px;
+    position: absolute;
+}
+
+.text-box h1{
+    font-size:30px;
+    font:bold;
+}
+.text-box p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+.text-box a{
+    color: inherit;
+}
+
+.soldout{
+    
+    font-size: 11px;
+    position: relative;
+    left: 220px;
+    top: 8px;
+}
+
+.connect{
+    width: 230px;
+    background-color: white;
+    height: 42px;
+    border-radius: 6rem;
+    position: relative;
+    left: 155px;
+    top: 10px;
+}
+
+.small-nft{
+    width: 580px;
+    height: 70px;
+    right: 55px;
+    
+    top: 20px;
+    position: relative;
+    display: flex;
+}
+
+.nft-1{
+    
+    width: 70px;
+    height: 70px;
+}
+.nft-2{
+     
+    width: 70px;
+    height: 70px;
+}
+.nft-3{
+     
+    width: 70px;
+    height: 70px;
+}
+.nft-4{
+     
+    width: 70px;
+    height: 70px;
+}
+.nft-5{
+     
+    width: 70px;height: 70px;
+}
+.nft-6{
+    
+    width: 70px;height: 70px;
+}
+.nft-7{
+    
+    width: 70px;height: 70px;
+}
+.nft-8{
+    
+    width: 70px;height: 70px;
+}
+.nft-9{
+    
+    width: 70px;height: 70px;
+}
+
+
+
+.discord-bubble{
+    left: 35%;
+    position: relative;
+    top:30px;
+    background-color: gray;
+    width: 430px;
+    height: 80px;
+    border-radius: 3rem;
+    cursor: pointer;
+    
+}
+.discord-bubble:hover{
+    background-color: #4050f0 ;
+}
+
+
+.discord-bubble .dclogo{
+    width: 35px;
+    height: 25px;
+    position: relative;
+    top: 9px;
+}
+
+.discord-bubble .discord{
+    left: 40px;
+    position: relative;
+    top: 20px;
+    color: inherit;
+    color: white;
+    text-decoration: none;
+}
+.discord b{
+    top: 2px;
+    position: relative;
+    left: 8px;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+
+.main-container{
+    
+    width: 100%;
+    height: 2400px;
+    top: 70px;
+    justify-content: center;
+    
+    display: flex;
+    position: relative;
+}
+
+.sub-main{
+    width: 950px;
+    height: 2250px;
+    background-color: #1f1f1f;
+    text-align: justify;
+}
+
+.section-1{
+    left: 35px;
+    top: 20px;
+    position: relative;
+    display: flex;
+}
+.section-1 h1{
+    color:white;
+
+}
+
+.jjsgif {
+    width: 220px;
+    height: 220px;
+    left: 160px;
+    top: 20px;
+    position: relative;
+    border-radius: 2rem;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.section-2{
+    
+    top: 80px;
+    position: relative;
+    display: flex;
+}
+.section-2 h1{
+    
+    color: white;
+}
+.sub-section-2{
+    left: 100px;
+    position: relative;
+}
+
+.jjsvid {
+    width: 400px;
+    height: 320px;
+    left: 35px;
+    top: 20px;
+    position: relative;
+    border-radius: 2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.section-3 {
+    top: 120px;
+    position: relative;
+    left: 35px;
+}
+
+.section-3 h1{
+    color: white;
+}
+
+.section-3 h2{
+    color: #09b9d8;
+    font-size: 16px;
+    
+}
+
+.box-1 {
+    width: 875px;
+    height: 110px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #12b2da;
+}
+
+.box-1 p{
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+.box-2 {
+    position: relative;
+    top: 10px;
+    width: 875px;
+    height: 145px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #1575e2;
+}
+
+.box-2 p{
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+.box-3 {
+    position: relative;
+    top: 20px;
+    width: 875px;
+    height: 160px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #2a80e4;
+}
+
+.box-3 p{
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.box-4 {
+    position: relative;
+    top: 30px;
+    width: 875px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #27ace0;
+}
+
+.box-4 p{
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.section-4 {
+    top: 190px;
+    position: relative;
+    left: 35px;
+}
+
+.section-4 h1{
+    color: white;
+}
+
+.section-4 h2{
+    color: #1fa4cc;
+    font-size: 16px;
+    
+}
+
+.sub-section-4{
+    width:900px;
+    height: 300px;
+    top: 20px;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grapeman{
+    width: 135px;
+    height: 300px;
+    
+}
+.cath{
+    width: 135px;
+    height: 300px;
+    
+}
+.pape{
+    width: 135px;
+    height: 300px;
+    
+}
+
+
+.sub-section-4 img{
+    width: 110px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3rem;
+    height: 120px;
+}
+
+.section-5 {
+    top: 160px;
+    position: relative;
+    left: 35px;
+}
+
+.section-5 h1{
+    color: white;
+}
+
+.text-box .small-nft img{
+    width: 75px;
+    height: 70px;
+}
+
+.connect img{
+    width: 27px;
+    height: 27px;
+    top: 8px;
+    position: relative;
+} 
+
+.connect b{
+    color: black;
+    font-size: 14px;
+}
+
+.phantom {
+    position: relative;
+    left: 12px;
+}
+
+.accordion {
+    max-width: 870px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    background: black;
+    position: relative;
+    
+  }
+  .accordion-2 {
+    max-width: 870px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    background: black;
+    top: 20px;
+    position: relative;
+  }
+  .accordion-3 {
+    max-width: 870px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    background: black;
+   
+    position: relative;
+    top: 40px;
+  }
+  .accordion-4 {
+    max-width: 870px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    background: black;
+   
+    position: relative;
+    top: 60px;
+  }
+  .accordion__label,
+  .accordion__content {
+    padding: 14px 20px;
+  }
+  
+  .accordion__label {
+    display: block;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+  }
+  
+  .accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+  }
+  
+  .accordion__content {
+    background: black;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+  
+  .accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+  }
+  
+  .accordion label{
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0ch;
+  }
+  .accordion-2 label{
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0ch;
+  }
+  .accordion-3 label{
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0ch;
+  }
+  .accordion-4 label{
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0ch;
+  }
+
+  footer{
+      position: relative;
+      left: 610px;
+      bottom: 40px;
+      
+  }
+  footer img {
+      width: 190px;
+      height: 30px;
+      
+  }
+  footer p{
+      position: relative;
+      left: 10px;
+  }
+
+
+
+    
+    
+
+
+
+
+
+
+
