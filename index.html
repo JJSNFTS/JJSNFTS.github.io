@@ -8,6 +8,16 @@
   </head>
 
   <body>
+    <div class="nav-bar">
+      <ul>
+          <a href="#"> <li>Home</li> </a>
+          <a href="#"> <li>Documentation</li> </a>
+          <a href="#"> <li>Contact</li> </a>
+          <a href="#"> <li></li> </a>
+          <a href="#"> <li></li> </a>
+
+      </ul>
+  </div>
     <div class="container">
       <img class="logo" src="jjs.png" alt="" />
       <div class="box-close">
@@ -277,6 +287,16 @@
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".nav-bar");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+
+    </script>
   </body>
   <footer>
     <p>2021 | Corporats Lab</p>
